@@ -4,17 +4,17 @@ public class WolfTest {
 
         Wolf wolfone = new Wolf();
 
-         wolfone.sex = "male";
-         wolfone.name = "Grey";
-         wolfone.age = 9;
-         wolfone.weight = 27.5;
-         wolfone.color = "green";
+         wolfone.setSex("male");
+         wolfone.setName("grey");
+         wolfone.setAge(9);
+         wolfone.setWeight(27.5);
+         wolfone.setColor("green");
 
-        System.out.println(wolfone.sex);
-        System.out.println(wolfone.name);
-        System.out.println(wolfone.age);
-        System.out.println(wolfone.weight);
-        System.out.println(wolfone.color);
+        System.out.println(wolfone.getSex());
+        System.out.println(wolfone.getName());
+        System.out.println(wolfone.getAge());
+        System.out.println(wolfone.getWeight());
+        System.out.println(wolfone.getColor());
         wolfone.seat();
         wolfone.run();
         wolfone.move();
